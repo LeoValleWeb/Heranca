@@ -17,7 +17,12 @@ public class Animal {
      return this.idade;
    }
 
-   
-
+   public Animal (String nome, int idade){
+        this.nome=nome;
+        this.idade=idade;
+   }
+   public Animal(){
+        
+   }
     
 }
